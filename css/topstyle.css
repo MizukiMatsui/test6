@@ -1,0 +1,352 @@
+ /*common*/
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+*{
+  box-sizing:border-box;
+}
+
+ body{
+   color:#000;
+ }
+
+a{
+  text-decoration: none;
+   color:#000;
+}
+
+
+header.headblock {
+  padding: 60px 0px 80px 0px;
+  width: 100%;
+}
+#top header {
+  width:78%;
+  background-color: rgba(255, 255, 255, 1);
+  position: fixed;
+  top:0;
+}
+
+ /*top*/
+
+#top{
+  width:78%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.logo1 {
+  width:180px;
+  float : left;
+}
+.icon {
+  height: 14px;
+}
+.mainlist {
+  margin-right: 40px;
+}
+
+.mainlist li {
+  display: inline-block;
+  list-style : none ;
+  font-family: "arial unicode ms";
+
+}
+.header-right {
+  float:right;
+}
+.header-right .mail-icon{
+  display: none;
+}
+.menu-icon {
+  display: none;
+  color: black;
+  float: right;
+  font-size: 27px;
+  padding: 21px 0;
+  /* displayをnoneに指定してください */
+  display: none;
+}
+
+.mainlist li a{
+  font-size: 17px ;
+  letter-spacing: 1px;
+  float : left;
+  padding : 3px 20px 0px 20px;
+  margin : 24px 0px 0 8px;
+  background-color: white;
+  color : black;
+  border-radius: 18px;
+  cursor: pointer;
+}
+
+.mainlist li a:hover {
+  background-color: black;
+  color : white;
+  transition:0.5s;
+}
+.mainlist .l-icon a:hover{
+  background-color: #00B900;
+  color : white;
+  transition:0.5s;
+}
+.mainlist .t-icon a:hover {
+  background-color: #1DA1F2;
+  color : white;
+  transition:0.5s;
+}
+
+.menu-icon {
+  display: none;
+}
+
+/*.top テキストエリア*/
+.toptext {
+  margin-top :260px;
+}
+
+.top h1 {
+
+  font-size : 60px;
+  line-height : 24px;
+  font-family: "Comic Sans MS";
+}
+.toptext2 {
+  display: none;
+}
+.top .subtext {
+  font-size : 22px;
+  font-family: "arial unicode ms";
+  padding-bottom :40px ;
+}
+.top .subtext2 {
+  display: none;
+}
+
+/*.コンテンツエリア*/
+.contents {
+  display: inline-block;
+  font-family: "arial unicode ms";
+
+}
+/*maemoto*/
+.tile {
+  float:left;
+  padding:0 4% 0 0;
+  box-sizing:border-box;
+  overflow:hidden;
+}
+
+.tile2 {
+  width :50%;
+}
+
+.tile2 .photo{
+  max-height:450px;
+  overflow:hidden;
+}
+
+.photoBox{
+
+}
+
+.tile3 {
+  width :33.3%;
+}
+.tile3 .photo{
+  max-height:300px;
+}
+
+.contents .photo{
+  width : 100%;
+
+}
+
+.contents .mark{
+  display: inline-block;
+  font-size:15px;
+  padding : 3px 20px 0px 20px;
+  margin-top : 10px;
+  color:white;
+  border-radius: 18px;
+  letter-spacing: 3px;
+  background-color: black;
+}
+
+/*.tile .AR {
+  background-color: #feb64a;
+}
+.tile .VR {
+  background-color: #feb64a;
+}
+.tile .GAME {
+  background-color: #feb64a;
+}*/
+
+
+.contents h3 {
+  font-size: 25px;
+  padding-top:10px;
+  line-height: 0px;
+
+}
+.contents h4 {
+  font-size: 14px;
+  padding: 10px 0 45px 0 ;
+  line-height: 20px;
+  width:100%;
+  word-wrap: break-word;
+
+}
+
+.more {
+  float:right;
+  display: inline-block;
+  font-family: "Shuei MaruGo B";
+  font-size: 25px;
+  letter-spacing: 2px;
+  padding : 3px 20px 3px 20px;
+  margin-right:4%;
+  color: white;
+  background-color: black;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.more-mark {
+padding-left:  14px;
+}
+/*about 紹介*/
+
+.about {
+  margin:150px 0 100px 0 ;
+  float:left;
+}
+
+
+.prof {
+  width: 22%;
+  margin-right: 2%;
+}
+.prof-photo {
+  display: inline-block;
+}
+.prof2 {
+  display: none;
+}
+
+#about .prof-text {
+  width:40%;
+  display: inline-block;
+  margin-left: 30px;
+
+}
+.prof-text h3{
+  font-size : 30px;
+  line-height : 3px;
+  letter-spacing: 8px;
+  font-family: "Helvetica";
+}
+.prof-text h4{
+  font-size : 20px;
+  line-height : 3px;
+  padding-bottom: 20px;
+  letter-spacing: 6px;
+  font-family: "arial unicode ms";
+}
+.prof-text p{
+  font-size : 18px;
+  line-height : 22px;
+  letter-spacing: 4px;
+  font-family: "arial unicode ms";
+}
+.contact {
+  float:right;
+  display: inline-block;
+  font-family: "arial unicode ms";
+  font-size: 21px;
+  letter-spacing: 2px;
+  padding : 8px 21px 6px 22px;
+  margin:40px 4% 0 0;
+  color: white;
+  background-color: black;
+  border-radius: 20px;
+  cursor: pointer;
+
+}
+.contact-mark {
+  padding-left:  14px;
+}
+
+font-size : 10px;
+line-height : 10px;
+
+/*フッター*/
+
+footer {
+  display: inline-block;
+  font-family: "arial unicode ms";
+}
+footer h5 {
+  font-size: 15px;
+  text-align: center;
+}
+footer .footlist {
+  padding-left: 0;
+  font-size: 15px;
+  list-style : none ;
+  line-height: 20px;
+  font-family: "arial unicode ms";
+}
+.comment {
+  font-size: 18px;
+}
+
+/*プロダクトページ*/
+
+#product {
+  width:78%;
+  margin: 0 auto;
+  background-color: white;
+}
+#product .frame {
+  width:78%;
+  background-color: rgba(255, 255, 255, 1);
+  position: fixed;
+  top:0;
+}
+
+.product .pic01 {
+  margin-top : 260px;
+  width : 100%;
+}
+.product .pic02 {
+  margin-top:20px;
+  width : 100%;
+}
+.product {
+  font-family:Noto Suns JP;
+  text-align: center;
+}
+.product h1 {
+  padding-top : 80px;
+  letter-spacing: 4px;
+  font-size: 30px;
+}
+.product h2 {
+  padding-top : 0px;
+  letter-spacing: 3px;
+  font-size: 20px;
+}
+.product h3 {
+  padding-top : 0px;
+  letter-spacing: 3px;
+  font-size: 20px;
+  text-align: left;
+}
+
+.product .text-area {
+  width : 62%;
+  margin:60px auto;
+}
